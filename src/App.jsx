@@ -1,20 +1,23 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import "./App.css";
 import "./components/css/Main.scss";
 import updatePreview from "./components/basics/updatePreview";
+import preload from './components/Data/PreLoad.jsx';
 
 const App = () => {
+    useEffect(() => {
+        document.getElementById("editor").value = preload;
+    
+        updatePreview();
+      }, []);
     return (
         <div class="box">
             <div class="editor-container">
-                <div id="editor-title"
-                style={{ height: updatePreview }}
-                >
+                <div id="editor-title">
                     <h2>Text Editor</h2>
                 </div>
                 <textarea id="editor"
                 onChange={updatePreview}
-                style={{ height: updatePreview }}
                 />
             </div>
             <div class="preview-container">

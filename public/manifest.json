@@ -1,7 +1,7 @@
 {
   "short_name": "markdownPreviewer",
   "name": "Markdown Previewer",
-  "start_url": "ikpc.github.io/Markdown-Previewer",
+  "start_url": "https://ikpc.github.io/Markdown-Previewer/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
