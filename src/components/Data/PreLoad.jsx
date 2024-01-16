@@ -1,6 +1,6 @@
 const preload =
   "# Markdown Previewer\n" +
-  "## There's a text editor that renders whatever you write!\n" +
+  "## This is a text editor that renders whatever you write!\n" +
   "- [Github's repository](https://www.github.com/IkPc/Markdown-Previewer)\n" +
   "<p>Paragraph</p>\n" +
   "<pre>\n" +
