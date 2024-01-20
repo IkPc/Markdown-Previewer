@@ -11,8 +11,8 @@ const App = () => {
         updatePreview();
       }, []);
     return (
-        <div class="box">
-            <div class="editor-container">
+        <div className="box">
+            <div className="editor-container">
                 <div id="editor-title">
                     <h2>Text Editor</h2>
                 </div>
@@ -20,7 +20,7 @@ const App = () => {
                 onChange={updatePreview}
                 />
             </div>
-            <div class="preview-container">
+            <div className="preview-container">
                 <div id="preview-title">
                     <h2>Previewer</h2>
                 </div>

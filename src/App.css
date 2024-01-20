@@ -3,8 +3,7 @@ body {
     min-height: 100vh; 
     display: flex;
     justify-content: center;
-    background: repeating-linear-gradient(to bottom, #505050, #000000);
+    background: repeating-radial-gradient(#505050, #000000);
     margin-top: 5vh;
     margin-bottom: 5vh;
-
 }
